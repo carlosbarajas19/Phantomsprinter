@@ -8,6 +8,6 @@ public class ReturnFloor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        other.transform.position = ReturnPoint.position;
+        other.transform.position = ReturnPoint.position;    
     }
 }
